@@ -108,12 +108,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
+    <loc>http://cherryblog.site/Javascript-modular-programming1module-writing.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript模块化编程（二）：js模块化发展史</title>
-        <pubTime>2017-03-07T15:04:40.000Z</pubTime>
+        <title>Javascript模块化编程（一）：模块的写法</title>
+        <pubTime>2017-03-07T14:40:16.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -130,12 +130,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Javascript-modular-programming1module-writing.html</loc>
+    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>Javascript模块化编程（一）：模块的写法</title>
-        <pubTime>2017-03-07T14:40:16.000Z</pubTime>
+        <title>javascript模块化编程（二）：js模块化发展史</title>
+        <pubTime>2017-03-07T15:04:40.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -174,14 +174,14 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Use-Gitpagehexo-to-develop-their-own-blog.html</loc>
+    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>利用Gitpage+hexo开发自己的博客</title>
-        <pubTime>2016-09-15T17:07:17.000Z</pubTime>
+        <title>将项目上传至github</title>
+        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>git</tag>
          
          
            
@@ -234,14 +234,14 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    <loc>http://cherryblog.site/Use-Gitpagehexo-to-develop-their-own-blog.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>将项目上传至github</title>
-        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
+        <title>利用Gitpage+hexo开发自己的博客</title>
+        <pubTime>2016-09-15T17:07:17.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>hexo</tag>
          
          
            
