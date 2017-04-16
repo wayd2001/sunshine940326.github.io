@@ -338,28 +338,6 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Hexo-high-level-tutorialcloudmusic,bg-customthemes-statistical.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    <data>
-        <display>
-        <title>hexo高阶教程next主题优化之加入网易云音乐、网易云跟帖、动态背景、自定义主题、统计功能</title>
-        <pubTime>2017-04-09T14:32:30.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>hexo教程</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
@@ -390,6 +368,28 @@
         <pubTime>2016-09-16T17:01:48.000Z</pubTime>
         
         <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/Hexo-high-level-tutorialcloudmusic,bg-customthemes-statistical.html</loc>
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <data>
+        <display>
+        <title>hexo高阶教程next主题优化之加入网易云音乐、网易云跟帖、动态背景、自定义主题、统计功能</title>
+        <pubTime>2017-04-09T14:32:30.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>hexo教程</tag>
          
          
            
