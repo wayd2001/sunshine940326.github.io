@@ -93,10 +93,12 @@
 <meta property="og:url" content="http://cherryblog.site/ErrorReportingInGitUse.html">
 <meta property="og:site_name" content="Cherry's Blog">
 <meta property="og:description" content="gitgit实战git报错">
-<meta property="og:updated_time" content="2017-04-15T16:08:20.246Z">
+<meta property="og:image" content="http://images2015.cnblogs.com/blog/630011/201603/630011-20160315120522896-1718649799.jpg">
+<meta property="og:updated_time" content="2017-04-17T14:17:07.308Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Git使用中的报错情况">
 <meta name="twitter:description" content="gitgit实战git报错">
+<meta name="twitter:image" content="http://images2015.cnblogs.com/blog/630011/201603/630011-20160315120522896-1718649799.jpg">
 
 
 
@@ -410,7 +412,7 @@
                      <span class="post-meta-item-text">字数统计</span>
                        
                      <span title="字数统计" }}">
-                       749 字
+                       698 字
                      </span>
                   
                  
@@ -424,7 +426,7 @@
                       <span class="post-meta-item-text">阅读时长</span>
                  
                    <span title="阅读时长" }}">
-                 4 分钟
+                 3 分钟
                  </span>
                
             </div>
@@ -447,25 +449,33 @@
 
       
         <p>在Git的使用过程中，难免会有这样那样的错误，对于刚开始使用git的小白来说，来记录一下使用过程中报错情况以及怎么处理的<br><a id="more"></a></p>
-<p>#　<code>git pull</code>时报错<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">$ git pull</div><div class="line">remote: Counting objects: 100, done.</div><div class="line">remote: Compressing objects: 100% (57/57), done.</div><div class="line">remote: Total 60 (delta 36), reused 3 (delta 0)</div><div class="line">Unpacking objects: 100% (60/60), done.</div><div class="line">From 180.166.124.26:/var/git/fzc</div><div class="line">   d8ec768..7c13661  master     -&gt; origin/master</div><div class="line">Updating d8ec768..7c13661</div><div class="line">error: Your local changes to the following files would be overwritten by merge:</div><div class="line">        protected/modules/m/views/detail/house.php</div><div class="line">        protected/modules/m/views/list/house.php</div><div class="line">        protected/modules/web/views/default/list.php</div><div class="line">        protected/modules/web/views/detail/house.php</div><div class="line">        protected/modules/web/views/list/house.php</div><div class="line">        static_src/web/js/houseList/nprogress.js</div><div class="line">        static_src/web/js/list/nprogress.js</div><div class="line">Please commit your changes or stash them before you can merge.</div><div class="line">error: The following untracked working tree files would be overwritten by merge:</div><div class="line">        static_dist/web/js/houseList/houseList-min-50ae65dad4.js</div><div class="line">        static_dist/web/js/list/list-min-dd27ec4ef4.js</div><div class="line">Please move or remove them before you can merge.</div><div class="line">Aborting</div></pre></td></tr></table></figure></p>
-<p>大意就是说你修改的文件在之前的commit中没有提交，远端的文件和本地的文件冲突<br>解决方法</p>
+<p>在Git的使用过程中，难免会有这样那样的错误，对于刚开始使用git的小白来说，来记录一下使用过程中报错情况以及怎么处理的</p>
+<p><code>git pull</code>时报错<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">$ git pull</div><div class="line">remote: Counting objects: 100, done.</div><div class="line">remote: Compressing objects: 100% (57/57), done.</div><div class="line">remote: Total 60 (delta 36), reused 3 (delta 0)</div><div class="line">Unpacking objects: 100% (60/60), done.</div><div class="line">From 180.166.124.26:/var/git/fzc</div><div class="line">   d8ec768..7c13661  master     -&gt; origin/master</div><div class="line">Updating d8ec768..7c13661</div><div class="line">error: Your local changes to the following files would be overwritten by merge:</div><div class="line">        protected/modules/m/views/detail/house.php</div><div class="line">        protected/modules/m/views/list/house.php</div><div class="line">        protected/modules/web/views/default/list.php</div><div class="line">        protected/modules/web/views/detail/house.php</div><div class="line">        protected/modules/web/views/list/house.php</div><div class="line">        static_src/web/js/houseList/nprogress.js</div><div class="line">        static_src/web/js/list/nprogress.js</div><div class="line">Please commit your changes or stash them before you can merge.</div><div class="line">error: The following untracked working tree files would be overwritten by merge:</div><div class="line">        static_dist/web/js/houseList/houseList-min-50ae65dad4.js</div><div class="line">        static_dist/web/js/list/list-min-dd27ec4ef4.js</div><div class="line">Please move or remove them before you can merge.</div><div class="line">Aborting</div></pre></td></tr></table></figure></p>
+<p>大意就是说你修改的文件在之前的commit中没有提交，远端的文件和本地的文件冲突<br>解决方法（出现这样的原因是你在commit之前进行了pull，正确的顺序应该是先进行<code>git add</code>、<code>git commit</code>、然后再进行拉去远端的代码<code>git pull</code>，解决完冲突之后再push）</p>
 <ol>
-<li><p>昨天遇到这个问题的时候是本地修改的文件不需要提交了，直接放弃就可以了，</p>
+<li><p>如果本地修改的文件不需要提交了，直接放弃就可以了</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git checkout --filename</div></pre></td></tr></table></figure>
-<p>然后远端的文件就覆盖了你的本地文件，然后在<code>git pull</code>,之后就可以<code>git add</code>、<code>git commit</code>、<code>git push</code>三部曲了</p>
+<p>然后远端的文件就覆盖了你的本地文件,之后就可以<code>git add</code>、<code>git commit</code>、<code>git pull</code>、<code>git push</code>了</p>
 <ol>
-<li>还可以保存本地的状态<br><code>git stash</code><br>然后再<br><code>git pull  origin master</code><br>但是提示我<code>No local changes to save</code></li>
+<li>还可以保存本地的状态<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">//暂存当前文件</div><div class="line">$ git stash [save message]</div><div class="line">save可以对进度进行备注</div><div class="line"></div><div class="line"></div><div class="line">//查看当前工作区和版本库区别</div><div class="line">$ git diff HEAD</div><div class="line"></div><div class="line">//显示已暂存列表</div><div class="line">$ git stash list</div><div class="line"></div><div class="line">//恢复最近一次暂存区</div><div class="line">$ git stash pop [--index][&lt;stash&gt;]</div><div class="line">[]中为可选参数</div><div class="line">--index 不仅恢复工作区，还恢复暂存区</div><div class="line">&lt;stash&gt;指定恢复到具体的进度</div><div class="line"></div><div class="line">//删除进度（默认删除最新进度）</div><div class="line">$ git stash drop [&lt;stash&gt;]</div><div class="line"></div><div class="line">//删除所有进度</div><div class="line">$ git stash clear</div><div class="line"></div><div class="line">//基于进度创建分支 </div><div class="line">$ git stash branch &lt;branchname&gt; &lt;stash&gt;</div></pre></td></tr></table></figure>
+</li>
 </ol>
 </li>
 </ol>
-<p>然后我再pull的时候提示我<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$ git pull</div><div class="line">Updating d8ec768..7c13661</div><div class="line">error: The following untracked working tree files would be overwritten by merge:</div><div class="line">        static_dist/web/js/houseList/houseList-min-50ae65dad4.js</div><div class="line">        static_dist/web/js/list/list-min-dd27ec4ef4.js</div><div class="line">Please move or remove them before you can merge.</div><div class="line">Aborting</div></pre></td></tr></table></figure></p>
-<p>然后我想放弃这两个文件就报错了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git checkout  static_dist/web/js/houseList/houseList-min-50ae65dad4.js</div><div class="line">error: pathspec &apos;static_dist/web/js/houseList/houseList-min-50ae65dad4.js&apos; did not match any fi         le(s) known to git.</div></pre></td></tr></table></figure></p>
-<ol>
-<li>所以我请来了我们的phper，他说可以直接提交 = =<br>先是查看一下现在的状态<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">$ git status</div><div class="line">On branch master</div><div class="line">Your branch is behind &apos;origin/master&apos; by 3 commits, and can be fast-forwarded.</div><div class="line">  (use &quot;git pull&quot; to update your local branch)</div><div class="line">Untracked files:</div><div class="line">  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)</div><div class="line"></div><div class="line">        static_dist/m/css/about/about-min-e5159328af.css</div><div class="line">        static_dist/m/css/authentication/authentication-min-2315b81179.css</div><div class="line">        static_dist/m/css/defaultIndex/defaultIndex-min-ecc8a57574.css</div><div class="line">        static_dist/m/css/defaultList/defaultList-min-df3ee5323b.css</div><div class="line">        static_dist/m/css/detailHouse/detailHouse-min-8f6835d719.css</div><div class="line">        static_dist/m/css/detailIndex/detailIndex-min-24e3587ee2.css</div><div class="line">        static_dist/m/css/detailOrder/detailOrder-min-ffa8b47793.css</div><div class="line">        static_dist/m/css/listHouse/listHouse-min-53c056c915.css</div><div class="line">        static_dist/m/css/payIndex/payIndex-min-78a3d6e471.css</div><div class="line">        static_dist/m/css/publicMain/publicMain-min-243df56309.css</div><div class="line">        static_dist/m/css/userDetail/userDetail-min-bf3f5d072e.css</div><div class="line">        static_dist/m/css/userIndex/userIndex-min-7898459c71.css</div><div class="line">        static_dist/m/css/userLogin_reg/userLogin_reg-min-718b2d35d8.css</div><div class="line">        static_dist/m/css/userOrder/userOrder-min-5f18d80c90.css</div><div class="line">        static_dist/m/css/userProject/userProject-min-fcc2e92ff7.css</div><div class="line">        static_dist/web/css/bankguide/bankguide-min-eb72d15494.css</div><div class="line">        static_dist/web/css/defaultIndex/defaultIndex-min-ccc49d9d39.css</div><div class="line">        static_dist/web/css/detail/detail-min-714ac29c22.css</div><div class="line">        static_dist/web/css/houseDetail/houseDetail-min-ea5da2d35e.css</div><div class="line">        static_dist/web/css/houseList/houseList-min-5ad0e311df.css</div><div class="line">        static_dist/web/css/list/list-min-7b339899d6.css</div><div class="line">        static_dist/web/css/publicMain/publicMain-min-51e7cfd8d2.css</div><div class="line">        static_dist/web/js/houseList/houseList-min-50ae65dad4.js</div><div class="line">        static_dist/web/js/list/list-min-dd27ec4ef4.js</div><div class="line"></div><div class="line">nothing added to commit but untracked files present (use &quot;git add&quot; to track)</div></pre></td></tr></table></figure>
+<p>在pull的时候经常会出现下面的情况<br><img src="http://images2015.cnblogs.com/blog/630011/201603/630011-20160315120522896-1718649799.jpg" alt="image"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Please enter a commit message to explain why this merge is necessary.</div><div class="line">请输入提交消息来解释为什么这种合并是必要的</div></pre></td></tr></table></figure>
+<p>这种轻情况在pull或者合并分支的时候会出现，为什么会出现我也不清楚原因= =</p>
+<ul>
+<li><p>1按键盘字母 i 进入insert模式</p>
 </li>
-</ol>
-<p>然后确认这些文件都不需要了，在checkout一遍<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git checkout .</div></pre></td></tr></table></figure></p>
-<p>然后在发布三部曲</p>
+<li><p>2修改最上面那行黄色合并信息,可以不修改</p>
+</li>
+<li><p>3按键盘左上角”Esc”</p>
+</li>
+<li><p>4输入”:wq”,注意是冒号+wq,按回车键即可</p>
+</li>
+</ul>
+<p>可以直接进行3、4步，</p>
 
       
     </div>

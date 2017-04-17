@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://cherryblog.site/ErrorReportingInGitUse.html</loc>
+    <lastmod>2017-04-17T14:17:07.308Z</lastmod>
+    <data>
+        <display>
+        <title>Git使用中的报错情况</title>
+        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>实战经验</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://cherryblog.site/GitCommands.html</loc>
     <lastmod>2017-04-16T08:02:05.506Z</lastmod>
     <data>
@@ -39,28 +61,6 @@
     </url>
 
     
-  <url>
-    <loc>http://cherryblog.site/React-first.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>react（一）：初识react</title>
-        <pubTime>2017-03-01T14:01:40.000Z</pubTime>
-        
-        <tag>react</tag>
-         
-         
-           
-             
-              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
     
     
     
@@ -86,16 +86,58 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（四）：工厂模式</title>
-        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
+        <title>javascript模块化编程（二）：js模块化发展史</title>
+        <pubTime>2017-03-07T15:04:40.000Z</pubTime>
         
         <tag>js</tag>
          
-        <tag>js设计模式</tag>
+        <tag>js模块化</tag>
+         
+         
+           
+             
+              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>将项目上传至github</title>
+        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>Javascript模块化编程（三）：require.js的用法</title>
+        <pubTime>2017-03-08T15:11:42.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>js模块化</tag>
          
          
            
@@ -130,16 +172,36 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
+    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript模块化编程（二）：js模块化发展史</title>
-        <pubTime>2017-03-07T15:04:40.000Z</pubTime>
+        <title>移动端调试方法</title>
+        <pubTime>2017-03-28T15:21:55.000Z</pubTime>
+        
+        <tag>调试</tag>
+         
+         
+           
+             
+              <breadCrumb title="日积月累" url="http://cherryblog.site/categories/%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>javascript设计模式（四）：工厂模式</title>
+        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
         
         <tag>js</tag>
          
-        <tag>js模块化</tag>
+        <tag>js设计模式</tag>
          
          
            
@@ -151,22 +213,41 @@
     </url>
 
     
+    
   <url>
-    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
+    <loc>http://cherryblog.site/Use-Gitpagehexo-to-develop-their-own-blog.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>Javascript模块化编程（三）：require.js的用法</title>
-        <pubTime>2017-03-08T15:11:42.000Z</pubTime>
+        <title>利用Gitpage+hexo开发自己的博客</title>
+        <pubTime>2016-09-15T17:07:17.000Z</pubTime>
         
-        <tag>js</tag>
-         
-        <tag>js模块化</tag>
+        <tag>hexo</tag>
          
          
            
              
-              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/React-first.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>react（一）：初识react</title>
+        <pubTime>2017-03-01T14:01:40.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
           
         </display>
     </data>
@@ -193,25 +274,6 @@
     </url>
 
     
-  <url>
-    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>移动端调试方法</title>
-        <pubTime>2017-03-28T15:21:55.000Z</pubTime>
-        
-        <tag>调试</tag>
-         
-         
-           
-             
-              <breadCrumb title="日积月累" url="http://cherryblog.site/categories/%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
@@ -227,68 +289,6 @@
            
              
               <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>将项目上传至github</title>
-        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Use-Gitpagehexo-to-develop-their-own-blog.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>利用Gitpage+hexo开发自己的博客</title>
-        <pubTime>2016-09-15T17:07:17.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/ErrorReportingInGitUse.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    <data>
-        <display>
-        <title>Git使用中的报错情况</title>
-        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>实战经验</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
@@ -362,28 +362,6 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Hexo-high-level-tutorialcloudmusic,bg-customthemes-statistical.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    <data>
-        <display>
-        <title>hexo高阶教程next主题优化之加入网易云音乐、网易云跟帖、动态背景、自定义主题、统计功能</title>
-        <pubTime>2017-04-09T14:32:30.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-        <tag>hexo教程</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://cherryblog.site/Hexo-insert-music-share-comment-tab-search.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
@@ -404,14 +382,16 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Hexo-Understand-the-principles-of-githubPages-hexoblog.html</loc>
+    <loc>http://cherryblog.site/Hexo-high-level-tutorialcloudmusic,bg-customthemes-statistical.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>了解githubPages+hexo搭建博客的原理</title>
-        <pubTime>2017-02-26T06:30:15.000Z</pubTime>
+        <title>hexo高阶教程next主题优化之加入网易云音乐、网易云跟帖、动态背景、自定义主题、统计功能</title>
+        <pubTime>2017-04-09T14:32:30.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>git</tag>
+         
+        <tag>hexo教程</tag>
          
          
            
@@ -481,6 +461,26 @@
            
              
               <breadCrumb title="随笔" url="http://cherryblog.site/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/Hexo-Understand-the-principles-of-githubPages-hexoblog.html</loc>
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <data>
+        <display>
+        <title>了解githubPages+hexo搭建博客的原理</title>
+        <pubTime>2017-02-26T06:30:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
