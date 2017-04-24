@@ -338,12 +338,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern2modular-mode.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（一）</title>
-        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        <title>javascript设计模式（二）：模块化模式</title>
+        <pubTime>2017-03-24T15:09:08.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -360,12 +360,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern2modular-mode.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（二）：模块化模式</title>
-        <pubTime>2017-03-24T15:09:08.000Z</pubTime>
+        <title>javascript设计模式（一）</title>
+        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
         
         <tag>js</tag>
          
