@@ -62,28 +62,52 @@
     </url>
 
     
+    
+    
+    
+    
+    
   <url>
-    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
+    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>react（二）：用实例认识react</title>
-        <pubTime>2017-03-02T13:34:44.000Z</pubTime>
+        <title>gulp（一）</title>
+        <pubTime>2017-03-18T12:00:06.000Z</pubTime>
         
-        <tag>react</tag>
+        <tag>gulp</tag>
          
          
            
              
-              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
+              <breadCrumb title="gulp" url="http://cherryblog.site/categories/gulp/"/>
           
         </display>
     </data>
     </url>
 
     
-    
-    
+  <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>javascript设计模式（四）：工厂模式</title>
+        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>js设计模式</tag>
+         
+         
+           
+             
+              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
@@ -151,43 +175,20 @@
     </url>
 
     
-    
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <loc>http://cherryblog.site/Use-webstorm-to-connect-GitHub.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（四）：工厂模式</title>
-        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
+        <title>使用webstorm连接github</title>
+        <pubTime>2017-02-24T02:40:20.000Z</pubTime>
         
-        <tag>js</tag>
-         
-        <tag>js设计模式</tag>
+        <tag>git</tag>
          
          
            
              
-              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>移动端调试方法</title>
-        <pubTime>2017-03-28T15:21:55.000Z</pubTime>
-        
-        <tag>调试</tag>
-         
-         
-           
-             
-              <breadCrumb title="日积月累" url="http://cherryblog.site/categories/%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/"/>
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
@@ -214,6 +215,25 @@
     </url>
 
     
+  <url>
+    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>react（二）：用实例认识react</title>
+        <pubTime>2017-03-02T13:34:44.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
+          
+        </display>
+    </data>
+    </url>
+
     
   <url>
     <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
@@ -222,46 +242,6 @@
         <display>
         <title>将项目上传至github</title>
         <pubTime>2017-02-25T09:35:35.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>gulp（一）</title>
-        <pubTime>2017-03-18T12:00:06.000Z</pubTime>
-        
-        <tag>gulp</tag>
-         
-         
-           
-             
-              <breadCrumb title="gulp" url="http://cherryblog.site/categories/gulp/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Use-webstorm-to-connect-GitHub.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>使用webstorm连接github</title>
-        <pubTime>2017-02-24T02:40:20.000Z</pubTime>
         
         <tag>git</tag>
          
@@ -296,21 +276,19 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（一）</title>
-        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        <title>移动端调试方法</title>
+        <pubTime>2017-03-28T15:21:55.000Z</pubTime>
         
-        <tag>js</tag>
-         
-        <tag>js设计模式</tag>
+        <tag>调试</tag>
          
          
            
              
-              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+              <breadCrumb title="日积月累" url="http://cherryblog.site/categories/%E6%97%A5%E7%A7%AF%E6%9C%88%E7%B4%AF/"/>
           
         </display>
     </data>
@@ -342,19 +320,21 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Hexo-advanced.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern3prototype-model.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>hexo高级进阶</title>
-        <pubTime>2016-09-16T17:14:19.000Z</pubTime>
+        <title>javascript设计模式（三）：原型模式</title>
+        <pubTime>2017-03-25T15:05:28.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>js</tag>
+         
+        <tag>js设计模式</tag>
          
          
            
              
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
           
         </display>
     </data>
@@ -384,12 +364,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern3prototype-model.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（三）：原型模式</title>
-        <pubTime>2017-03-25T15:05:28.000Z</pubTime>
+        <title>javascript设计模式（一）</title>
+        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -399,6 +379,26 @@
            
              
               <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://cherryblog.site/Hexo-insert-music-share-comment-tab-search.html</loc>
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <data>
+        <display>
+        <title>hexo附件插入音乐、分享、评论、标签页、搜索</title>
+        <pubTime>2016-09-16T17:01:48.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
@@ -428,12 +428,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Hexo-insert-music-share-comment-tab-search.html</loc>
+    <loc>http://cherryblog.site/Hexo-advanced.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>hexo附件插入音乐、分享、评论、标签页、搜索</title>
-        <pubTime>2016-09-16T17:01:48.000Z</pubTime>
+        <title>hexo高级进阶</title>
+        <pubTime>2016-09-16T17:14:19.000Z</pubTime>
         
         <tag>hexo</tag>
          
