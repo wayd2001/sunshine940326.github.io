@@ -93,10 +93,12 @@
 <meta property="og:url" content="http://cherryblog.site/Use-Gitpagehexo-to-develop-their-own-blog.html">
 <meta property="og:site_name" content="Cherry's Blog">
 <meta property="og:description" content="进入程序员这个坑之后就开始自己在网上扒资料，然而资料太多，情况太复杂，主要是看见别人的博客，感觉好高大上，并且感觉在茫茫的互联网有自己的小天地感觉也是极好的。不是为了给别人看，而是为了 记录自己的成长，记录自己的每一个脚印。">
-<meta property="og:updated_time" content="2017-04-15T16:08:20.261Z">
+<meta property="og:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493223838128&di=c9a4b5d92b7ab41789dbde3069dbaf3a&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fd4c1239e75c02e8482c22017a6c8d407_r.jpg">
+<meta property="og:updated_time" content="2017-04-26T13:38:24.385Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用Gitpage+hexo开发自己的博客">
 <meta name="twitter:description" content="进入程序员这个坑之后就开始自己在网上扒资料，然而资料太多，情况太复杂，主要是看见别人的博客，感觉好高大上，并且感觉在茫茫的互联网有自己的小天地感觉也是极好的。不是为了给别人看，而是为了 记录自己的成长，记录自己的每一个脚印。">
+<meta name="twitter:image" content="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493223838128&di=c9a4b5d92b7ab41789dbde3069dbaf3a&imgtype=0&src=http%3A%2F%2Fpic4.zhimg.com%2Fd4c1239e75c02e8482c22017a6c8d407_r.jpg">
 
 
 
@@ -442,7 +444,8 @@
       
 
       
-        <p>进入程序员这个坑之后就开始自己在网上扒资料，然而资料太多，情况太复杂，主要是看见别人的博客，感觉好高大上，并且感觉在茫茫的互联网有自己的小天地感觉也是极好的。不是为了给别人看，而是为了 记录自己的成长，记录自己的每一个脚印。<br><a id="more"></a></p>
+        <p><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1493223838128&amp;di=c9a4b5d92b7ab41789dbde3069dbaf3a&amp;imgtype=0&amp;src=http%3A%2F%2Fpic4.zhimg.com%2Fd4c1239e75c02e8482c22017a6c8d407_r.jpg" alt="这里写图片描述"></p>
+<p>进入程序员这个坑之后就开始自己在网上扒资料，然而资料太多，情况太复杂，主要是看见别人的博客，感觉好高大上，并且感觉在茫茫的互联网有自己的小天地感觉也是极好的。不是为了给别人看，而是为了 记录自己的成长，记录自己的每一个脚印。<br><a id="more"></a></p>
 <h2 id="Gitpage-hexo"><a href="#Gitpage-hexo" class="headerlink" title="Gitpage+hexo"></a>Gitpage+hexo</h2><p>想要实现拥有一个独立的私有博客，我们需要两个东西，一个是可供浏览器访问的静态网页存储空间，这个我们选择gitPage，一个是一个静态网页生成工具，Octopress也好，Hexo也罢，这里我选择的是Hexo。</p>
 <h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><h2 id="1-安装Node"><a href="#1-安装Node" class="headerlink" title="1 安装Node"></a>1 安装Node</h2><p>到Node.js官网下载相应平台的最新版本，一路安装即可。我用的是node-v0.10.22-x86.msi</p>
 <h2 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2 安装Git"></a>2 安装Git</h2><p>安装git，或安装github客户端，自我感觉github客户端很好用，界面很友好，同样操作起来也比git好用的多！我用的是window10系统，在官网下载数次都未安装成功，最后在知乎上终于找到安装包，链接: <a href="http://pan.baidu.com/s/1eS2mHxS" target="_blank" rel="external">http://pan.baidu.com/s/1eS2mHxS</a> 密码: yatq ，有需要的同学可以点击下载。</p>
@@ -697,6 +700,27 @@
     <div>
       
         
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="http://oova2i5xh.bkt.clouddn.com/wechat.jpg" alt="Cherry WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="http://oova2i5xh.bkt.clouddn.com/alipay.jpg" alt="Cherry Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
 
       
     </div>
