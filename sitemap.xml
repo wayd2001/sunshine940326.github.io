@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cherryblog.site/photo/index.html</loc>
+    
+    <lastmod>2017-04-27T13:17:31.585Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/photo/index2.html</loc>
+    
+    <lastmod>2017-04-26T14:49:43.760Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cherryblog.site/Hexo-Understand-the-principles-of-githubPages-hexoblog.html</loc>
     
     <lastmod>2017-04-26T13:42:21.549Z</lastmod>
@@ -51,13 +65,6 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/photo/index.html</loc>
-    
-    <lastmod>2017-04-25T14:11:55.658Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://cherryblog.site/google777e1fe2e2ea67b4.html</loc>
     
     <lastmod>2017-04-16T07:57:13.993Z</lastmod>
@@ -68,27 +75,6 @@
     <loc>http://cherryblog.site/hexo-3.html</loc>
     
     <lastmod>2017-04-16T05:24:51.079Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/categories/index.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
@@ -107,7 +93,35 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/about/index.html</loc>
+    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/life/index.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/categories/index.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -121,14 +135,14 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
+    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    <loc>http://cherryblog.site/tags/index.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -149,49 +163,28 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/tags/index.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
+    <loc>http://cherryblog.site/about/index.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://cherryblog.site/life/index.html</loc>
+    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern3prototype-model.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern2modular-mode.html</loc>
+    <loc>http://cherryblog.site/Front-interview.html</loc>
     
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     
@@ -205,7 +198,21 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/Front-interview.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern3prototype-model.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern2modular-mode.html</loc>
     
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     

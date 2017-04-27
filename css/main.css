@@ -1806,7 +1806,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #671bff;
+  background: #013752;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2751,7 +2751,7 @@ body {
     right: 10px;
   }
 }
-#posts .fancybox img {
+#photo #posts .fancybox img {
   display: inline-block;
   float: left;
   margin: 20px;
@@ -2759,6 +2759,6 @@ body {
   -webkit-box-shadow: 0 0 14px #cacbcb;
   width: 300px;
 }
-#posts p {
+#photo  #posts p {
   overflow: auto;
 }
