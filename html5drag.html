@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="react," />
+  <meta name="keywords" content="html5,前端," />
 
 
 
@@ -87,16 +87,19 @@
 
 
 
-<meta name="description" content="这里只是读书笔记，因为刚开始接触react，概况的说一下什么是react，并且使用react完成hello world">
 <meta property="og:type" content="article">
-<meta property="og:title" content="react（一）：初识react">
-<meta property="og:url" content="http://cherryblog.site/React-first.html">
+<meta property="og:title" content="html5拖放--15行js代码实现两个div内容互换">
+<meta property="og:url" content="http://cherryblog.site/html5drag.html">
 <meta property="og:site_name" content="Cherry's Blog">
-<meta property="og:description" content="这里只是读书笔记，因为刚开始接触react，概况的说一下什么是react，并且使用react完成hello world">
-<meta property="og:updated_time" content="2017-04-15T16:08:20.261Z">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/5/24/db08e291a9b0857cca0060110188e225">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/5/24/c9919143af8ac22486c3fb9fcfd5b981">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/5/24/0c1b872fd140ad1053ec1a7f0b03fa75">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/5/24/3b43ace9a1ed0d25d21a9e694604c71f">
+<meta property="og:image" content="https://user-gold-cdn.xitu.io/2017/5/24/e214bb0885534cf1b13f15cb563563e3">
+<meta property="og:updated_time" content="2017-05-24T14:48:42.186Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="react（一）：初识react">
-<meta name="twitter:description" content="这里只是读书笔记，因为刚开始接触react，概况的说一下什么是react，并且使用react完成hello world">
+<meta name="twitter:title" content="html5拖放--15行js代码实现两个div内容互换">
+<meta name="twitter:image" content="https://user-gold-cdn.xitu.io/2017/5/24/db08e291a9b0857cca0060110188e225">
 
 
 
@@ -124,13 +127,13 @@
 
 
 
-  <link rel="canonical" href="http://cherryblog.site/React-first.html"/>
+  <link rel="canonical" href="http://cherryblog.site/html5drag.html"/>
 
 
 
 
 
-     <title> react（一）：初识react | Cherry's Blog </title>
+     <title> html5拖放--15行js代码实现两个div内容互换 | Cherry's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -300,7 +303,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://cherryblog.site/React-first.html">
+    <link itemprop="mainEntityOfPage" href="http://cherryblog.site/html5drag.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Cherry">
@@ -321,7 +324,7 @@
             
             
               
-                react（一）：初识react
+                html5拖放--15行js代码实现两个div内容互换
               
             
           </h1>
@@ -336,8 +339,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-01T22:01:40+08:00">
-                2017-03-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-24T13:24:51+08:00">
+                2017-05-24
               </time>
             
 
@@ -359,8 +362,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/react/" itemprop="url" rel="index">
-                    <span itemprop="name">react</span>
+                  <a href="/categories/git/" itemprop="url" rel="index">
+                    <span itemprop="name">git</span>
                   </a>
                 </span>
 
@@ -377,7 +380,7 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a class="cloud-tie-join-count" href="/React-first.html#comments" itemprop="discussionUrl">
+                <a class="cloud-tie-join-count" href="/html5drag.html#comments" itemprop="discussionUrl">
                   <span class="post-comments-count join-count" itemprop="commentCount"></span>
                 </a>
               </span>
@@ -386,7 +389,7 @@
 
           
           
-             <span id="/React-first.html" class="leancloud_visitors" data-flag-title="react（一）：初识react">
+             <span id="/html5drag.html" class="leancloud_visitors" data-flag-title="html5拖放--15行js代码实现两个div内容互换">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -410,7 +413,7 @@
                      <span class="post-meta-item-text">字数统计</span>
                        
                      <span title="字数统计" }}">
-                       635 字
+                       1,012 字
                      </span>
                   
                  
@@ -424,7 +427,7 @@
                       <span class="post-meta-item-text">阅读时长</span>
                  
                    <span title="阅读时长" }}">
-                 2 分钟
+                 4 分钟
                  </span>
                
             </div>
@@ -442,35 +445,30 @@
       
 
       
-        <p>这里只是读书笔记，因为刚开始接触react，概况的说一下什么是react，并且使用react完成hello world</p>
-<a id="more"></a>
-<p>这里是看慕课网初学react做的一些总结<a href="http://www.imooc.com/video/9819" target="_blank" rel="external">[课程]React入门</a>，</p>
-<h1 id="什么是react"><a href="#什么是react" class="headerlink" title="什么是react"></a>什么是react</h1><p>在这一个小时内对react的认识中，我有了对react的初步印象</p>
+        <p><img src="https://user-gold-cdn.xitu.io/2017/5/24/db08e291a9b0857cca0060110188e225" alt="html5拖放"><br><a id="more"></a></p>
+<blockquote>
+<p>本文首发于我的个人博客:<a href="http://cherryblog.site/">http://cherryblog.site/</a> ，欢迎大家前去参观<br>本文项目地址，sortable插件地址：<a href="https://github.com/sunshine940326/sortable" target="_blank" rel="external">https://github.com/sunshine940326/sortable</a><br>demo地址：<a href="https://github.com/sunshine940326/drag" target="_blank" rel="external">https://github.com/sunshine940326/drag</a></p>
+</blockquote>
+<p> 在写我们后台的管理程序中需要有一个拖放的功能，然后我们有一个这样的功能，实现11个固定且大小不一的div互换，效果如下<br><img src="https://user-gold-cdn.xitu.io/2017/5/24/c9919143af8ac22486c3fb9fcfd5b981" alt="最终效果图"></p>
+<p>作为一个小菜鸟，听到这样的消息我是蒙逼的= =，在网上找到一个插件，功能挺强大的<br><img src="https://user-gold-cdn.xitu.io/2017/5/24/0c1b872fd140ad1053ec1a7f0b03fa75" alt="sortable插件"><br><img src="https://user-gold-cdn.xitu.io/2017/5/24/3b43ace9a1ed0d25d21a9e694604c71f" alt="sortable插件"></p>
+<blockquote>
+<p>插件地址：<a href="https://github.com/sunshine940326/sortable" target="_blank" rel="external">https://github.com/sunshine940326/sortable</a></p>
+</blockquote>
+<p>但是这个插件只能拖动和放置，不能交换，也就是只能将div插入在其他div前面，其余的向后推移，并且不能做到交换div中的内容，而div容器不变的条件，然后我就和其他同事商量了一下交换两个div中的数据要怎么处理，然后同事说这个就比较麻烦了= =。需要写死div，然后先记录鼠标拖动前的div中的内容，然后判断鼠标放下的位置，在哪一个div的范围内，再交换两个的数据= =，真正做起来还不知道有什么坑。听着都怕，于是就暂且搁置了这个功能，直到有一天非做不可了，我百度了一下“怎么交换两个div”，然后找到了一个demo，天啦噜~整个实现过程全部代码50行不到，js代码之后十几行，整个过程不到半个小时就解决了，<em>★,°</em>:.☆(￣▽￣)/$:<em>.°★</em>。撒花！效果如下：<br><img src="https://user-gold-cdn.xitu.io/2017/5/24/e214bb0885534cf1b13f15cb563563e3" alt="demo效果"></p>
+<blockquote>
+<p>demo地址：<a href="https://github.com/sunshine940326/drag" target="_blank" rel="external">https://github.com/sunshine940326/drag</a><br>查看代码，发现思路如下:</p>
+</blockquote>
 <ol>
-<li>js库</li>
-<li>facebook开发的</li>
-<li>高度的组件化</li>
-<li>使用jsx</li>
-<li>将html和js结合</li>
-<li>单项传输数据</li>
-<li>虚拟dom</li>
-<li>只负责view层</li>
+<li>ondragstart（ 用户开始拖动元素时触发）的时候使用该对象的dataTransfer.setData方法，并且用中间量记录点击的div</li>
+<li>ondragover (当某被拖动的对象在另一对象容器范围内拖动时触发此事件),拖动div的时候阻止拖动的默认事件（drop 事件的默认行为是以链接形式打开）</li>
+<li>ondrop (在一个拖动过程中，释放鼠标键时触发此事件)时候交换两个div的html<br>百度了一下发现这是html的新特性drag，研究了一下有如下特点<h1 id="拖放"><a href="#拖放" class="headerlink" title="拖放"></a>拖放</h1>本例的代码如下<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;!DOCTYPE HTML&gt;</div><div class="line">&lt;html&gt;</div><div class="line">&lt;head&gt;</div><div class="line">    &lt;style type=&quot;text/css&quot;&gt;</div><div class="line">        #div1</div><div class="line">        &#123;float:left; width:100px; height:35px; margin:10px;padding:10px;border:1px solid #aaaaaa;&#125;</div><div class="line">        #div2</div><div class="line">        &#123;float:left; width:200px; height:135px; margin:10px;padding:10px;border:1px solid #aaaaaa;&#125;</div><div class="line"></div><div class="line">    &lt;/style&gt;</div><div class="line">    &lt;script type=&quot;text/javascript&quot;&gt;</div><div class="line">        function allowDrop(ev)</div><div class="line">        &#123;</div><div class="line">            ev.preventDefault();</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        var srcdiv = null;</div><div class="line">        function drag(ev,divdom)</div><div class="line">        &#123;</div><div class="line">            srcdiv=divdom;</div><div class="line">            ev.dataTransfer.setData(&quot;text/html&quot;,divdom.innerHTML);</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        function drop(ev,divdom)</div><div class="line">        &#123;</div><div class="line">            ev.preventDefault();</div><div class="line">            if(srcdiv != divdom)&#123;</div><div class="line">                srcdiv.innerHTML = divdom.innerHTML;</div><div class="line">                divdom.innerHTML=ev.dataTransfer.getData(&quot;text/html&quot;);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &lt;/script&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line"></div><div class="line">&lt;div id=&quot;div1&quot; ondrop=&quot;drop(event,this)&quot; ondragover=&quot;allowDrop(event)&quot; draggable=&quot;true&quot; ondragstart=&quot;drag(event, this)&quot;&gt;</div><div class="line">    &lt;p&gt;ni hao!&lt;/p&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">&lt;div id=&quot;div2&quot; ondrop=&quot;drop(event,this)&quot; ondragover=&quot;allowDrop(event)&quot; draggable=&quot;true&quot; ondragstart=&quot;drag(event, this)&quot;&gt;</div><div class="line">    &lt;p&gt;Hello world!&lt;/p&gt;</div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+</li>
 </ol>
-<p>react并不是一个完整的mvc或者mvvm框架，只是负责view层，特点是“轻”，组件化的开发：组件高度的可重用。含义是将有独立功能的UI控件封装起来，将UI上的每一个独立的模块定义成组件，通过组合或者嵌套的方式构成大的组件，完成完整的UI</p>
-<h1 id="react应用场景"><a href="#react应用场景" class="headerlink" title="react应用场景"></a>react应用场景</h1><ol>
-<li>复杂场景下的高性能</li>
-<li>重用组件库，组件组合</li>
-<li>“懒”</li>
-</ol>
-<h1 id="使用react"><a href="#使用react" class="headerlink" title="使用react"></a>使用react</h1><p>最正确的打开方式还是直接看官方api：<a href="http://reactjs.cn/react/docs/getting-started-zh-CN.html" target="_blank" rel="external">react入门教程</a></p>
-<p>或者阮一峰老师的教程：<a href="http://www.ruanyifeng.com/blog/2015/03/react.html" target="_blank" rel="external">React 入门实例教程</a></p>
-<p>我们先用React JSFiddle来创建一个最简单的hello world</p>
-<p>html：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//这里引入的js库只是方便学习和实验的，在正式项目不引入</div><div class="line">&lt;script src=&quot;https://facebook.github.io/react/js/jsfiddle-integration-babel.js&quot;&gt;&lt;/script&gt;</div><div class="line"></div><div class="line">&lt;div id=&quot;container&quot;&gt;</div><div class="line">    &lt;!-- This element&apos;s contents will be replaced with your component. --&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure>
-<p>js:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">//jsx语法糖，计算机语言中添加的某种语法，这种语法对语言的功能并没有影响，但是更方便程序员使用。通常来说使用语法糖能够增加程序的可读性，从而减少程序代码出错的机会。</div><div class="line"></div><div class="line">//react里面的div只是虚拟的dom，在react看来只是react componments的一个实例，调用ReactDOM.render方法使虚拟的dom呈现到页面上，ReactDOM.render方法第一次参数就是我们要渲染的react componments，第二个参数是我们要插入的位置</div><div class="line"></div><div class="line">//自定义的componments通过React.createClass来进行创建</div><div class="line">//&#123;&#125;里面为js表达式的值this是我们所使用的componments，props是我们在ReactDOM.render中所使用的属性的集合</div><div class="line">var Hello = React.createClass(&#123;</div><div class="line">  render: function() &#123;</div><div class="line">  </div><div class="line">    </div><div class="line">    return &lt;div&gt;Hello &#123;this.props.name&#125;&lt;/div&gt;;</div><div class="line">  &#125;</div><div class="line">&#125;);</div><div class="line"></div><div class="line">ReactDOM.render(</div><div class="line">  //生成自定义标签</div><div class="line">  &lt;Hello name=&quot;World&quot; /&gt;,</div><div class="line">  document.getElementById(&apos;container&apos;)</div><div class="line">);</div></pre></td></tr></table></figure>
-<h1 id="为html添加css"><a href="#为html添加css" class="headerlink" title="为html添加css"></a>为html添加css</h1><h2 id="添加类"><a href="#添加类" class="headerlink" title="添加类"></a>添加类</h2><p>因为class是js中的保留字，所以在给标签加css类的时候不能使用class需要用className</p>
-<h2 id="内联样式"><a href="#内联样式" class="headerlink" title="内联样式"></a>内联样式</h2><p>需要使用驼峰写法的键值对<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">return &lt;div style=&#123;&#123;color:&apos;red&apos;&#125;&#125;&gt;Hello &#123;this.props.name&#125;&lt;/div&gt;;</div></pre></td></tr></table></figure></p>
+<p>拖放是一种常见的特性，即抓取对象以后拖到另一个位置。<br>在 HTML5 中，拖放是标准的一部分，任何元素都能够拖放。</p>
+<h2 id="设置元素为可拖放"><a href="#设置元素为可拖放" class="headerlink" title="设置元素为可拖放"></a>设置元素为可拖放</h2><p>首先，为了使元素可拖动，把 draggable 属性设置为 true ：<br><code>&lt;div draggable=&quot;true&quot;&gt;&lt;/div&gt;</code></p>
+<h2 id="设置ondragstart-和并保存数据"><a href="#设置ondragstart-和并保存数据" class="headerlink" title="设置ondragstart 和并保存数据"></a>设置ondragstart 和并保存数据</h2><p>ondragstart 属性调用了一个函数，drag(event,this)，它规定了被拖动的数据。dataTransfer.setData() 方法设置被拖数据的数据类型和值,在这个例子中，数据类型是 “text/html”，值是可拖动元素的innerHTML<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">function drag(ev,divdom)&#123;</div><div class="line">   srcdiv=divdom;</div><div class="line">   ev.dataTransfer.setData(&quot;text/html&quot;,divdom.innerHTML);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="放到何处-ondragover"><a href="#放到何处-ondragover" class="headerlink" title="放到何处 - ondragover"></a>放到何处 - ondragover</h2><p>ondragover 事件规定在何处放置被拖动的数据。<br>默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。<br>这要通过调用 ondragover 事件的 event.preventDefault() 方法：<br>event.preventDefault()<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">function allowDrop(ev)&#123;</div><div class="line">   ev.preventDefault();</div><div class="line">&#125;</div><div class="line">``` </div><div class="line">##进行放置 - ondrop</div><div class="line">当放置被拖数据时，会发生 drop 事件。</div><div class="line">在上面的例子中，ondrop 属性调用了一个函数，drop(event)：</div></pre></td></tr></table></figure></p>
+<p> function drop(ev,divdom){<br>    ev.preventDefault();<br>    if(srcdiv != divdom){<br>         srcdiv.innerHTML = divdom.innerHTML;<br>      divdom.innerHTML=ev.dataTransfer.getData(“text/html”);<br>    }<br>}<br>``` </p>
 
       
     </div>
@@ -521,7 +519,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/react/" rel="tag"># react</a>
+            <a href="/tags/html5/" rel="tag"># html5</a>
+          
+            <a href="/tags/前端/" rel="tag"># 前端</a>
           
         </div>
       
@@ -534,8 +534,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/Hexo-Understand-the-principles-of-githubPages-hexoblog.html" rel="next" title="了解githubPages+hexo搭建博客的原理">
-                <i class="fa fa-chevron-left"></i> 了解githubPages+hexo搭建博客的原理
+              <a href="/css-checkbox-input-radio.html" rel="next" title="css：默认的checkbox、input、radio太丑了？我来教你改变使用纯css3改写的带动画的默认样式">
+                <i class="fa fa-chevron-left"></i> css：默认的checkbox、input、radio太丑了？我来教你改变使用纯css3改写的带动画的默认样式
               </a>
             
           </div>
@@ -543,10 +543,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/React2understanding-react-with-examples.html" rel="prev" title="react（二）：用实例认识react">
-                react（二）：用实例认识react <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -698,7 +694,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#什么是react"><span class="nav-number">1.</span> <span class="nav-text">什么是react</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#react应用场景"><span class="nav-number">2.</span> <span class="nav-text">react应用场景</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用react"><span class="nav-number">3.</span> <span class="nav-text">使用react</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#为html添加css"><span class="nav-number">4.</span> <span class="nav-text">为html添加css</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#添加类"><span class="nav-number">4.1.</span> <span class="nav-text">添加类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内联样式"><span class="nav-number">4.2.</span> <span class="nav-text">内联样式</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#拖放"><span class="nav-number">1.</span> <span class="nav-text">拖放</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#设置元素为可拖放"><span class="nav-number">1.1.</span> <span class="nav-text">设置元素为可拖放</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置ondragstart-和并保存数据"><span class="nav-number">1.2.</span> <span class="nav-text">设置ondragstart 和并保存数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#放到何处-ondragover"><span class="nav-number">1.3.</span> <span class="nav-text">放到何处 - ondragover</span></a></li></ol></li></ol></div>
             
 
           </div>
