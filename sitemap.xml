@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cherryblog.site/html5zhihubg.html</loc>
+    
+    <lastmod>2017-05-25T14:36:12.628Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cherryblog.site/html5drag.html</loc>
     
-    <lastmod>2017-05-24T14:48:42.186Z</lastmod>
+    <lastmod>2017-05-25T14:35:36.560Z</lastmod>
     
   </url>
   
@@ -93,7 +100,7 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -107,35 +114,7 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/tags/index.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/React-first.html</loc>
+    <loc>http://cherryblog.site/Mobile-terminal-debugging-method.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -149,21 +128,14 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/photos/index.html</loc>
+    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://cherryblog.site/categories/index.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -177,7 +149,28 @@
   </url>
   
   <url>
-    <loc>http://cherryblog.site/JavaScript-modular-programming2JSmodulardevelopmenthistory.html</loc>
+    <loc>http://cherryblog.site/React-first.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/categories/index.html</loc>
     
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     
@@ -198,6 +191,27 @@
   </url>
   
   <url>
+    <loc>http://cherryblog.site/photos/index.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/tags/index.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
+    
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://cherryblog.site/JavaScript-Design-Pattern3prototype-model.html</loc>
     
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
@@ -206,13 +220,6 @@
   
   <url>
     <loc>http://cherryblog.site/JavaScript-Design-Pattern2modular-mode.html</loc>
-    
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
     
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     
