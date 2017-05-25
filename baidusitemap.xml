@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://cherryblog.site/html5zhihubg.html</loc>
-    <lastmod>2017-05-25T14:36:12.628Z</lastmod>
+    <lastmod>2017-05-25T14:42:14.678Z</lastmod>
     <data>
         <display>
         <title>html5拖放--15行js代码实现两个div内容互换</title>
@@ -256,41 +256,21 @@
     
     
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <loc>http://cherryblog.site/Javascript-modular-programming1module-writing.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（四）：工厂模式</title>
-        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
+        <title>Javascript模块化编程（一）：模块的写法</title>
+        <pubTime>2017-03-07T14:40:16.000Z</pubTime>
         
         <tag>js</tag>
          
-        <tag>js设计模式</tag>
+        <tag>js模块化</tag>
          
          
            
              
               <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>将项目上传至github</title>
-        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
@@ -318,6 +298,48 @@
 
     
   <url>
+    <loc>http://cherryblog.site/React-first.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>react（一）：初识react</title>
+        <pubTime>2017-03-01T14:01:40.000Z</pubTime>
+        
+        <tag>react</tag>
+         
+         
+           
+             
+              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>将项目上传至github</title>
+        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://cherryblog.site/Use-webstorm-to-connect-GitHub.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
@@ -337,17 +359,39 @@
     </url>
 
     
+    
   <url>
-    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
+    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>Javascript模块化编程（三）：require.js的用法</title>
-        <pubTime>2017-03-08T15:11:42.000Z</pubTime>
+        <title>gulp（一）</title>
+        <pubTime>2017-03-18T12:00:06.000Z</pubTime>
+        
+        <tag>gulp</tag>
+         
+         
+           
+             
+              <breadCrumb title="gulp" url="http://cherryblog.site/categories/gulp/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern4factory-mode.html</loc>
+    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
+    <data>
+        <display>
+        <title>javascript设计模式（四）：工厂模式</title>
+        <pubTime>2017-03-26T14:01:41.000Z</pubTime>
         
         <tag>js</tag>
          
-        <tag>js模块化</tag>
+        <tag>js设计模式</tag>
          
          
            
@@ -382,12 +426,12 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Javascript-modular-programming1module-writing.html</loc>
+    <loc>http://cherryblog.site/Javascript-modular-programming3requirejs-use.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>Javascript模块化编程（一）：模块的写法</title>
-        <pubTime>2017-03-07T14:40:16.000Z</pubTime>
+        <title>Javascript模块化编程（三）：require.js的用法</title>
+        <pubTime>2017-03-08T15:11:42.000Z</pubTime>
         
         <tag>js</tag>
          
@@ -403,45 +447,6 @@
     </url>
 
     
-  <url>
-    <loc>http://cherryblog.site/React-first.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>react（一）：初识react</title>
-        <pubTime>2017-03-01T14:01:40.000Z</pubTime>
-        
-        <tag>react</tag>
-         
-         
-           
-             
-              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/gulp%EF%BC%88%E4%B8%80%EF%BC%89.html</loc>
-    <lastmod>2017-04-15T16:08:20.261Z</lastmod>
-    <data>
-        <display>
-        <title>gulp（一）</title>
-        <pubTime>2017-03-18T12:00:06.000Z</pubTime>
-        
-        <tag>gulp</tag>
-         
-         
-           
-             
-              <breadCrumb title="gulp" url="http://cherryblog.site/categories/gulp/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
@@ -463,27 +468,20 @@
     </url>
 
     
-    
-    
-    
-    
-    
   <url>
-    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
+    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
         <display>
-        <title>javascript设计模式（一）</title>
-        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        <title>自律才能自由</title>
+        <pubTime>2017-03-02T13:55:57.000Z</pubTime>
         
-        <tag>js</tag>
-         
-        <tag>js设计模式</tag>
+        <tag>脑子里的小想法</tag>
          
          
            
              
-              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+              <breadCrumb title="随笔" url="http://cherryblog.site/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -535,6 +533,28 @@
 
     
   <url>
+    <loc>http://cherryblog.site/JavaScript-Design-Pattern.html</loc>
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <data>
+        <display>
+        <title>javascript设计模式（一）</title>
+        <pubTime>2017-03-11T15:54:11.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+        <tag>js设计模式</tag>
+         
+         
+           
+             
+              <breadCrumb title="js" url="http://cherryblog.site/categories/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://cherryblog.site/Front-interview.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
@@ -552,26 +572,6 @@
            
              
               <breadCrumb title="面试题库" url="http://cherryblog.site/categories/%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    <data>
-        <display>
-        <title>自律才能自由</title>
-        <pubTime>2017-03-02T13:55:57.000Z</pubTime>
-        
-        <tag>脑子里的小想法</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://cherryblog.site/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
