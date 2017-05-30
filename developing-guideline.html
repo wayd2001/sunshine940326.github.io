@@ -95,7 +95,7 @@
 <meta property="og:description" content="一个好的程序员肯定是要能书写可维护的代码，而不是一次性的代码，怎么能让团队当中其他人甚至一段时间时候你再看你某个时候写的代码也能看懂呢，这就需要规范你的代码了。我是有一点强迫症的人，上周我们后端给我了一个CanUsename的接口（该接口的目的是判断输入的目的地是否是4级目的地），我真的是崩溃的。我只是觉得这个名字不够语义化，但是让我自己想一个名字我又想不出来，于是我就在想，如果有一套命名规范的">
 <meta property="og:image" content="http://img.blog.csdn.net/20170530152035209?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3Vuc2hpbmU5NDAzMjY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://img.blog.csdn.net/20170530124720963?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3Vuc2hpbmU5NDAzMjY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:updated_time" content="2017-05-30T07:21:34.518Z">
+<meta property="og:updated_time" content="2017-05-30T09:28:21.671Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="css：前端开发规范：命名规范、html规范、css规范、js规范">
 <meta name="twitter:description" content="一个好的程序员肯定是要能书写可维护的代码，而不是一次性的代码，怎么能让团队当中其他人甚至一段时间时候你再看你某个时候写的代码也能看懂呢，这就需要规范你的代码了。我是有一点强迫症的人，上周我们后端给我了一个CanUsename的接口（该接口的目的是判断输入的目的地是否是4级目的地），我真的是崩溃的。我只是觉得这个名字不够语义化，但是让我自己想一个名字我又想不出来，于是我就在想，如果有一套命名规范的">
@@ -373,8 +373,8 @@
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/html/开发规范呢/" itemprop="url" rel="index">
-                    <span itemprop="name">开发规范呢</span>
+                  <a href="/categories/html/开发规范/" itemprop="url" rel="index">
+                    <span itemprop="name">开发规范</span>
                   </a>
                 </span>
 
@@ -424,7 +424,7 @@
                      <span class="post-meta-item-text">字数统计</span>
                        
                      <span title="字数统计" }}">
-                       6,405 字
+                       6,378 字
                      </span>
                   
                  
@@ -460,7 +460,9 @@
 <p>一个好的程序员肯定是要能书写可维护的代码，而不是一次性的代码，怎么能让团队当中其他人甚至一段时间时候你再看你某个时候写的代码也能看懂呢，这就需要规范你的代码了。<br>我是有一点强迫症的人，上周我们后端给我了一个CanUsename的接口（该接口的目的是判断输入的目的地是否是4级目的地），我真的是崩溃的。<br>我只是觉得这个名字不够语义化，但是让我自己想一个名字我又想不出来，于是我就在想，如果有一套命名规范的话，那么以后起名字就不用发愁了，直接按照规范来就好了~<br>于是端午在家就百度了一下~<br><a id="more"></a></p>
 <h1 id="命名"><a href="#命名" class="headerlink" title="命名"></a>命名</h1><h2 id="驼峰式命名法介绍"><a href="#驼峰式命名法介绍" class="headerlink" title="驼峰式命名法介绍"></a>驼峰式命名法介绍</h2><ul>
 <li>Pascal Case 大驼峰式命名法：首字母大写。eg：StudentInfo、UserInfo、ProductInfo</li>
-<li>Camel Case 小驼峰式命名法：首字母小写。eg：studentInfo、userInfo、productInfo<h2 id="文件资源命名"><a href="#文件资源命名" class="headerlink" title="文件资源命名"></a>文件资源命名</h2></li>
+<li>Camel Case 小驼峰式命名法：首字母小写。eg：studentInfo、userInfo、productInfo</li>
+</ul>
+<h2 id="文件资源命名"><a href="#文件资源命名" class="headerlink" title="文件资源命名"></a>文件资源命名</h2><ul>
 <li>文件名不得含有空格</li>
 <li>文件名建议只使用小写字母，不使用大写字母。( 为了醒目，某些说明文件的文件名，可以使用大写字母，比如README、LICENSE。 )</li>
 <li>文件名包含多个单词时，单词之间建议使用半角的连词线 ( - ) 分隔。</li>
@@ -468,7 +470,46 @@
 </ul>
 <p>不推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;script src=&quot;http://cdn.com/foundation.min.js&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure></p>
 <p>推荐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;script src=&quot;//cdn.com/foundation.min.js&quot;&gt;&lt;/script&gt;</div></pre></td></tr></table></figure></p>
-<h2 id="变量命名"><a href="#变量命名" class="headerlink" title="变量命名"></a>变量命名</h2><p><strong>命名方式</strong> : 小驼峰式命名方法<br><strong>命名规范</strong> : 类型+对象描述的方式，如果没有明确的类型，就可以使前缀为名词<br>类型 | 小写字母<br>—|—<br>array| a<br>boolean | b<br>function | fn<br>int | i<br>object | o<br>regular | r<br>string | s<br>推荐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var tableTitle = &quot;LoginTable&quot;</div></pre></td></tr></table></figure></p>
+<h2 id="变量命名"><a href="#变量命名" class="headerlink" title="变量命名"></a>变量命名</h2><p><strong>命名方式</strong> : 小驼峰式命名方法<br><strong>命名规范</strong> : 类型+对象描述的方式，如果没有明确的类型，就可以使前缀为名词</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>小写字母</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>array</td>
+<td>a</td>
+</tr>
+<tr>
+<td>boolean</td>
+<td>b</td>
+</tr>
+<tr>
+<td>function</td>
+<td>fn</td>
+</tr>
+<tr>
+<td>int</td>
+<td>i</td>
+</tr>
+<tr>
+<td>object</td>
+<td>o</td>
+</tr>
+<tr>
+<td>regular</td>
+<td>r</td>
+</tr>
+<tr>
+<td>string</td>
+<td>s</td>
+</tr>
+</tbody>
+</table>
+<p>推荐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var tableTitle = &quot;LoginTable&quot;</div></pre></td></tr></table></figure></p>
 <p>不推荐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">var getTitle = &quot;LoginTable&quot;</div></pre></td></tr></table></figure></p>
 <h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p><strong>命名方式</strong> : 小驼峰方式 ( 构造函数使用大驼峰命名法 )<br><strong>命名规则</strong> : 前缀为动词</p>
 <table>
@@ -564,7 +605,8 @@
 <tr>
 <td>@example</td>
 <td>@example 示例代码</td>
-<td>@example setTitle(‘测试’) </td>
+<td>@example setTitle(‘测试’)</td>
+<td>如下</td>
 </tr>
 </tbody>
 </table>
@@ -660,8 +702,9 @@
 <li>要是两个值都是stirng，并且两个值的String内容相同，返回true </li>
 <li>要是两个值都是true或者都是false，返回true </li>
 <li>要是两个值都是指向相同的Object，Arraya或者function，返回true </li>
-<li><p>要是两个值都是null或者都是undefined，返回true</p>
-<h2 id="真假判断"><a href="#真假判断" class="headerlink" title="真假判断"></a>真假判断</h2></li>
+<li>要是两个值都是null或者都是undefined，返回true</li>
+</ul>
+<h2 id="真假判断"><a href="#真假判断" class="headerlink" title="真假判断"></a>真假判断</h2><ul>
 <li>js中以下内容为假：</li>
 <li>false</li>
 <li>null</li>
@@ -678,15 +721,86 @@
 <p>正因为它是如此容易地被搞错，请限制它的使用场景：</p>
 <ul>
 <li>在构造函数中</li>
-<li>在对象的方法中（包括由此创建出的闭包内）<h2 id="首选函数式风格"><a href="#首选函数式风格" class="headerlink" title="首选函数式风格"></a>首选函数式风格</h2>函数式编程让你可以简化代码并缩减维护成本，因为它容易复用，又适当地解耦和更少的依赖。</li>
+<li>在对象的方法中（包括由此创建出的闭包内）</li>
 </ul>
+<h2 id="首选函数式风格"><a href="#首选函数式风格" class="headerlink" title="首选函数式风格"></a>首选函数式风格</h2><p>函数式编程让你可以简化代码并缩减维护成本，因为它容易复用，又适当地解耦和更少的依赖。</p>
 <p>接下来的例子中，在一组数字求和的同一问题上，比较了两种解决方案。第一个例子是经典的程序处理，而第二个例子则是采用了函数式编程和 ECMA Script 5.1 的数组方法。<br>不推荐<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">(function(log)&#123;</div><div class="line">  &apos;use strict&apos;;</div><div class="line"> </div><div class="line">  var arr = [10, 3, 7, 9, 100, 20],</div><div class="line">      sum = 0,</div><div class="line">      i;</div><div class="line"> </div><div class="line"> </div><div class="line">  for(i = 0; i &lt; arr.length; i++) &#123;</div><div class="line">    sum += arr[i];</div><div class="line">  &#125;</div><div class="line"> </div><div class="line">  log(&apos;The sum of array &apos; + arr + &apos; is: &apos; + sum)</div><div class="line"> </div><div class="line">&#125;(window.console.log));</div></pre></td></tr></table></figure></p>
 <p>推荐(函数式编程)：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">(function(log)&#123;</div><div class="line">  &apos;use strict&apos;;</div><div class="line"> </div><div class="line">  var arr = [10, 3, 7, 9, 100, 20];</div><div class="line"> </div><div class="line">  var sum = arr.reduce(function(prevValue, currentValue) &#123;</div><div class="line">    return prevValue + currentValue;</div><div class="line">  &#125;, 0);</div><div class="line"> </div><div class="line">  log(&apos;The sum of array &apos; + arr + &apos; is: &apos; + sum);</div><div class="line"> </div><div class="line">&#125;(window.console.log));</div></pre></td></tr></table></figure></p>
 <h2 id="修改内建对象的原型链"><a href="#修改内建对象的原型链" class="headerlink" title="修改内建对象的原型链"></a>修改内建对象的原型链</h2><p>修改内建的诸如 <code>Object.prototype</code> 和 <code>Array.prototype</code> 是被严厉禁止的。修改其它的内建对象比如 <code>Function.prototype</code>，虽危害没那么大，但始终还是会导致在开发过程中难以 debug 的问题，应当也要避免。</p>
 <h2 id="三元条件判断（if-的快捷方法）"><a href="#三元条件判断（if-的快捷方法）" class="headerlink" title="三元条件判断（if 的快捷方法）"></a>三元条件判断（if 的快捷方法）</h2><p>用三元操作符分配或返回语句。在比较简单的情况下使用，避免在复杂的情况下使用。没人愿意用 10 行三元操作符把自己的脑子绕晕。<br>不推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">if(x === 10) &#123;</div><div class="line">  return &apos;valid&apos;;</div><div class="line">&#125; else &#123;</div><div class="line">  return &apos;invalid&apos;;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">return x === 10 ? &apos;valid&apos; : &apos;invalid&apos;</div></pre></td></tr></table></figure></p>
 <h1 id="JSHint"><a href="#JSHint" class="headerlink" title="JSHint"></a>JSHint</h1><p>在js规范中，有很多规范都是样式上的规范而不是逻辑上的规范，比如尽量使用<code>===</code>而不是<code>==</code>，我们可以使用JSHint或者JSLint，Javascript代码验证工具，这种工具可以检查你的代码并提供相关的代码改进意见。我个人使用的是JSHint，所以就以这个为例</p>
-<h2 id="webstorm内置JSHint"><a href="#webstorm内置JSHint" class="headerlink" title="webstorm内置JSHint"></a>webstorm内置JSHint</h2><p>对于ws爱好者来说，我没有用过其他的编译器，ws基本上能满足你的所有需求（最新的ws集成了vue）。<br>在Settings =&gt; language &amp; frameworks =&gt; JavaScript =&gt; Code Quality Tolls =&gt; JSHint<br><img src="http://img.blog.csdn.net/20170530124720963?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3Vuc2hpbmU5NDAzMjY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="webstorm中的jshint">这些规范都是什么意思呢，这里列出一些常用的，剩下的大家可以参考<a href="http://jshint.com/docs/" target="_blank" rel="external">官方文档</a><br>名称 | 含义<br>—|—<br>curly| 循环或者条件语句必须使用花括号包住<br>eqeqeq | 使用强制等===<br>newcap | 对于首字母大写的函数（声明的类），强制使用new<br>noarg | 禁用arguments.caller和arguments.callee<br>sub | 对于属性使用aaa.bbb而不是aaa[‘bbb’]<br>undef | 查找所有未定义的变量<br>boss | 查找类似与if(a = 0)这样的代码<br>node | 指定运行环境为node<br>strict | 必须使用严格模式<br>asi | 允许省略分号<br>bitwise | 禁止使用位运算符，比如经常把&amp;&amp;写错&amp; 规避此错误<br>jquery | 定义全局暴露的jQuery库<br>evil | 禁止使用eval<br>maxdepth | 嵌套的最大深度<br>maxparams | 参数的最大个数</p>
+<h2 id="webstorm内置JSHint"><a href="#webstorm内置JSHint" class="headerlink" title="webstorm内置JSHint"></a>webstorm内置JSHint</h2><p>对于ws爱好者来说，我没有用过其他的编译器，ws基本上能满足你的所有需求（最新的ws集成了vue）。<br>在Settings =&gt; language &amp; frameworks =&gt; JavaScript =&gt; Code Quality Tolls =&gt; JSHint<br><img src="http://img.blog.csdn.net/20170530124720963?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3Vuc2hpbmU5NDAzMjY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="webstorm中的jshint">这些规范都是什么意思呢，这里列出一些常用的，剩下的大家可以参考<a href="http://jshint.com/docs/" target="_blank" rel="external">官方文档</a></p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>curly</td>
+<td>循环或者条件语句必须使用花括号包住</td>
+</tr>
+<tr>
+<td>eqeqeq</td>
+<td>使用强制等===</td>
+</tr>
+<tr>
+<td>newcap</td>
+<td>对于首字母大写的函数（声明的类），强制使用new</td>
+</tr>
+<tr>
+<td>noarg</td>
+<td>禁用arguments.caller和arguments.callee</td>
+</tr>
+<tr>
+<td>sub</td>
+<td>对于属性使用aaa.bbb而不是aaa[‘bbb’]</td>
+</tr>
+<tr>
+<td>undef</td>
+<td>查找所有未定义的变量</td>
+</tr>
+<tr>
+<td>boss</td>
+<td>查找类似与if(a = 0)这样的代码</td>
+</tr>
+<tr>
+<td>node</td>
+<td>指定运行环境为node</td>
+</tr>
+<tr>
+<td>strict</td>
+<td>必须使用严格模式</td>
+</tr>
+<tr>
+<td>asi</td>
+<td>允许省略分号</td>
+</tr>
+<tr>
+<td>bitwise</td>
+<td>禁止使用位运算符，比如经常把&amp;&amp;写错&amp; 规避此错误</td>
+</tr>
+<tr>
+<td>jquery</td>
+<td>定义全局暴露的jQuery库</td>
+</tr>
+<tr>
+<td>evil</td>
+<td>禁止使用eval </td>
+</tr>
+<tr>
+<td>maxdepth</td>
+<td>嵌套的最大深度</td>
+</tr>
+<tr>
+<td>maxparams</td>
+<td>参数的最大个数</td>
+</tr>
+</tbody>
+</table>
 <h1 id="css规范"><a href="#css规范" class="headerlink" title="css规范"></a>css规范</h1><h2 id="id和class的命名"><a href="#id和class的命名" class="headerlink" title="id和class的命名"></a>id和class的命名</h2><p>ID和class的名称总是使用可以反应元素目的和用途的名称，或其他通用的名称，代替表象和晦涩难懂的名称<br>不推荐 :<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.fw-800 &#123;</div><div class="line">  font-weight: 800;</div><div class="line">&#125;</div><div class="line"> </div><div class="line">.red &#123;</div><div class="line">  color: red;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>推荐 :<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">.heavy &#123;</div><div class="line">  font-weight: 800;</div><div class="line">&#125;</div><div class="line"> </div><div class="line">.important &#123;</div><div class="line">  color: red;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <h2 id="合理的使用ID"><a href="#合理的使用ID" class="headerlink" title="合理的使用ID"></a>合理的使用ID</h2><p>一般情况下ID不应该被用于样式，并且ID的权重很高，所以不使用ID解决样式的问题，而是使用class<br>不推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">#content .title &#123;</div><div class="line">  font-size: 2em;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
@@ -697,7 +811,7 @@
 <h2 id="尽量使用缩写属性"><a href="#尽量使用缩写属性" class="headerlink" title="尽量使用缩写属性"></a>尽量使用缩写属性</h2><p>尽量使用缩写属性对于代码效率和可读性是很有用的，比如font属性。<br>不推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">border-top-style: none;</div><div class="line">font-family: palatino, georgia, serif;</div><div class="line">font-size: 100%;</div><div class="line">line-height: 1.6;</div><div class="line">padding-bottom: 2em;</div><div class="line">padding-left: 1em;</div><div class="line">padding-right: 1em;</div><div class="line">padding-top: 0;</div></pre></td></tr></table></figure></p>
 <p>推荐：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">border-top: 0;</div><div class="line">font: 100%/1.6 palatino, georgia, serif;</div><div class="line">padding: 0 1em 2em;</div><div class="line">``` </div><div class="line">## 0后面不带单位</div><div class="line">省略0后面的单位，</div><div class="line">不推荐：</div></pre></td></tr></table></figure></p>
 <p>padding-bottom: 0px;<br>margin: 0em;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">推荐：</div></pre></td></tr></table></figure></p>
-<p>padding-bottom: 0;<br>margin: 0;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">## 属性格式</div><div class="line"></div><div class="line"> - 为了保证一致性和可扩展性，每个声明应该用分号结束，每个声明换行。</div><div class="line"> - 属性名的冒号后使用一个空格。出于一致性的原因，</div><div class="line">属性和值（但属性和冒号之间没有空格）的之间始终使用一个空格。</div><div class="line"> - 每个选择器和属性声明总是使用新的一行。</div><div class="line"> - 属性选择器或属性值用双引号（””），而不是单引号（”）括起来。</div><div class="line"> - URI值（url()）不要使用引号。</div><div class="line"></div><div class="line">作为最佳实践，我们应该遵循以下顺序（应该按照下表的顺序）：</div><div class="line"></div><div class="line">结构性属性：</div><div class="line"></div><div class="line"> 1. display</div><div class="line"> 2. position, left, top, right etc.</div><div class="line"> 3. overflow, float, clear etc.</div><div class="line"> 4. margin, padding</div><div class="line"></div><div class="line">表现性属性：</div><div class="line"></div><div class="line"> - background, border etc.</div><div class="line"> - font, text</div><div class="line">不推荐：</div></pre></td></tr></table></figure></p>
+<p>padding-bottom: 0;<br>margin: 0;<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">## 属性格式</div><div class="line"></div><div class="line"> - 为了保证一致性和可扩展性，每个声明应该用分号结束，每个声明换行。</div><div class="line"> - 属性名的冒号后使用一个空格。出于一致性的原因，</div><div class="line">属性和值（但属性和冒号之间没有空格）的之间始终使用一个空格。</div><div class="line"> - 每个选择器和属性声明总是使用新的一行。</div><div class="line"> - 属性选择器或属性值用双引号（””），而不是单引号（”）括起来。</div><div class="line"> - URI值（url()）不要使用引号。</div><div class="line"></div><div class="line">作为最佳实践，我们应该遵循以下顺序（应该按照下表的顺序）：</div><div class="line"></div><div class="line">结构性属性：</div><div class="line"></div><div class="line"> 1. display</div><div class="line"> 2. position, left, top, right etc.</div><div class="line"> 3. overflow, float, clear etc.</div><div class="line"> 4. margin, padding</div><div class="line"></div><div class="line">表现性属性：</div><div class="line"></div><div class="line"> - background, border etc.</div><div class="line"> - font, text</div><div class="line"></div><div class="line">不推荐：</div></pre></td></tr></table></figure></p>
 <p> .box {<br>  font-family: ‘Arial’, sans-serif;<br>  border: 3px solid #ddd;<br>  left: 30%;<br>  position: absolute;<br>  text-transform: uppercase;<br>  background-color: #eee;<br>  right: 30%;<br>  isplay: block;<br>  font-size: 1.5rem;<br>  overflow: hidden;<br>  padding: 1em;<br>  margin: 1em;<br>}<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">推荐：</div></pre></td></tr></table></figure></p>
 <p>.box {<br>  display: block;<br>  position: absolute;<br>  left: 30%;<br>  right: 30%;<br>  overflow: hidden;<br>  margin: 1em;<br>  padding: 1em;<br>  background-color: #eee;<br>  border: 3px solid #ddd;<br>  font-family: ‘Arial’, sans-serif;<br>  font-size: 1.5rem;<br>  text-transform: uppercase;<br>}<br>```<br> 相关文章：</p>
 <ul>
