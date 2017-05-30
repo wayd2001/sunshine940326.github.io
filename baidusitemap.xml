@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://cherryblog.site/developing-guideline.html</loc>
-    <lastmod>2017-05-30T09:28:21.671Z</lastmod>
+    <lastmod>2017-05-30T09:36:08.478Z</lastmod>
     <data>
         <display>
         <title>css：前端开发规范：命名规范、html规范、css规范、js规范</title>
@@ -564,6 +564,26 @@
 
     
   <url>
+    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
+    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
+    <data>
+        <display>
+        <title>自律才能自由</title>
+        <pubTime>2017-03-02T13:55:57.000Z</pubTime>
+        
+        <tag>脑子里的小想法</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://cherryblog.site/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://cherryblog.site/Front-interview.html</loc>
     <lastmod>2017-04-15T16:08:20.246Z</lastmod>
     <data>
@@ -581,26 +601,6 @@
            
              
               <breadCrumb title="面试题库" url="http://cherryblog.site/categories/%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://cherryblog.site/Freedom-of-self-discipline.html</loc>
-    <lastmod>2017-04-15T16:08:20.246Z</lastmod>
-    <data>
-        <display>
-        <title>自律才能自由</title>
-        <pubTime>2017-03-02T13:55:57.000Z</pubTime>
-        
-        <tag>脑子里的小想法</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://cherryblog.site/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
