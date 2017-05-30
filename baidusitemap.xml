@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://cherryblog.site/developing-guideline.html</loc>
-    <lastmod>2017-05-30T09:40:29.432Z</lastmod>
+    <lastmod>2017-05-30T09:43:41.614Z</lastmod>
     <data>
         <display>
-        <title>css：前端开发规范：命名规范、html规范、css规范、js规范</title>
+        <title>前端开发规范：命名规范、html规范、css规范、js规范</title>
         <pubTime>2017-05-30T06:54:11.000Z</pubTime>
         
         <tag>css</tag>
@@ -396,19 +396,19 @@
 
     
   <url>
-    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
+    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>将项目上传至github</title>
-        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
+        <title>react（二）：用实例认识react</title>
+        <pubTime>2017-03-02T13:34:44.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>react</tag>
          
          
            
              
-              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
+              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
           
         </display>
     </data>
@@ -478,19 +478,19 @@
 
     
   <url>
-    <loc>http://cherryblog.site/React2understanding-react-with-examples.html</loc>
+    <loc>http://cherryblog.site/Upload-project-to-GitHub.html</loc>
     <lastmod>2017-04-15T16:08:20.261Z</lastmod>
     <data>
         <display>
-        <title>react（二）：用实例认识react</title>
-        <pubTime>2017-03-02T13:34:44.000Z</pubTime>
+        <title>将项目上传至github</title>
+        <pubTime>2017-02-25T09:35:35.000Z</pubTime>
         
-        <tag>react</tag>
+        <tag>git</tag>
          
          
            
              
-              <breadCrumb title="react" url="http://cherryblog.site/categories/react/"/>
+              <breadCrumb title="git" url="http://cherryblog.site/categories/git/"/>
           
         </display>
     </data>
