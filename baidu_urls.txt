@@ -1,3 +1,4 @@
+http://cherryblog.site/javascript-oop.html
 http://cherryblog.site/developing-guideline.html
 http://cherryblog.site/html5zhihubg.html
 http://cherryblog.site/html5drag.html
